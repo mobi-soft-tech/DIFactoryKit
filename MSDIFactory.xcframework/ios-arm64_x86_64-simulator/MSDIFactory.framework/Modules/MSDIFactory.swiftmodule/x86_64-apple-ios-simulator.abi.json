@@ -1,0 +1,1805 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSScope",
+        "printedName": "MSScope",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instant",
+            "printedName": "instant",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MSDIFactory.MSScope.Type) -> MSDIFactory.MSScope",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSScope",
+                    "printedName": "MSDIFactory.MSScope",
+                    "usr": "s:11MSDIFactory7MSScopeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MSDIFactory.MSScope.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSScope",
+                        "printedName": "MSDIFactory.MSScope",
+                        "usr": "s:11MSDIFactory7MSScopeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MSDIFactory7MSScopeO7instantyA2CmF",
+            "mangledName": "$s11MSDIFactory7MSScopeO7instantyA2CmF",
+            "moduleName": "MSDIFactory"
+          },
+          {
+            "kind": "Var",
+            "name": "singleton",
+            "printedName": "singleton",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MSDIFactory.MSScope.Type) -> MSDIFactory.MSScope",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSScope",
+                    "printedName": "MSDIFactory.MSScope",
+                    "usr": "s:11MSDIFactory7MSScopeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MSDIFactory.MSScope.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSScope",
+                        "printedName": "MSDIFactory.MSScope",
+                        "usr": "s:11MSDIFactory7MSScopeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MSDIFactory7MSScopeO9singletonyA2CmF",
+            "mangledName": "$s11MSDIFactory7MSScopeO9singletonyA2CmF",
+            "moduleName": "MSDIFactory"
+          },
+          {
+            "kind": "Var",
+            "name": "weak",
+            "printedName": "weak",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MSDIFactory.MSScope.Type) -> MSDIFactory.MSScope",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSScope",
+                    "printedName": "MSDIFactory.MSScope",
+                    "usr": "s:11MSDIFactory7MSScopeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MSDIFactory.MSScope.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSScope",
+                        "printedName": "MSDIFactory.MSScope",
+                        "usr": "s:11MSDIFactory7MSScopeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11MSDIFactory7MSScopeO4weakyA2CmF",
+            "mangledName": "$s11MSDIFactory7MSScopeO4weakyA2CmF",
+            "moduleName": "MSDIFactory"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MSDIFactory.MSScope?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSScope",
+                    "printedName": "MSDIFactory.MSScope",
+                    "usr": "s:11MSDIFactory7MSScopeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MSDIFactory7MSScopeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11MSDIFactory7MSScopeO8rawValueACSgSi_tcfc",
+            "moduleName": "MSDIFactory",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory7MSScopeO8rawValueSivp",
+            "mangledName": "$s11MSDIFactory7MSScopeO8rawValueSivp",
+            "moduleName": "MSDIFactory",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory7MSScopeO8rawValueSivg",
+                "mangledName": "$s11MSDIFactory7MSScopeO8rawValueSivg",
+                "moduleName": "MSDIFactory",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11MSDIFactory7MSScopeO",
+        "mangledName": "$s11MSDIFactory7MSScopeO",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSService",
+        "printedName": "MSService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serviceInstance",
+            "printedName": "serviceInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSServiceInstance",
+                "printedName": "MSDIFactory.MSServiceInstance",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory9MSServiceV15serviceInstanceAA0bD0_pvp",
+            "mangledName": "$s11MSDIFactory9MSServiceV15serviceInstanceAA0bD0_pvp",
+            "moduleName": "MSDIFactory",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory9MSServiceV15serviceInstanceAA0bD0_pvg",
+                "mangledName": "$s11MSDIFactory9MSServiceV15serviceInstanceAA0bD0_pvg",
+                "moduleName": "MSDIFactory",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(scope:type:name:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSService",
+                "printedName": "MSDIFactory.MSService",
+                "usr": "s:11MSDIFactory9MSServiceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MSScope",
+                "printedName": "MSDIFactory.MSScope",
+                "usr": "s:11MSDIFactory7MSScopeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MSDIFactory.MSResolver) -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSResolver",
+                    "printedName": "MSDIFactory.MSResolver",
+                    "usr": "s:11MSDIFactory10MSResolverP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11MSDIFactory9MSServiceV5scope4type4name8callbackAcA7MSScopeO_xmSSSgxAA10MSResolver_pctclufc",
+            "mangledName": "$s11MSDIFactory9MSServiceV5scope4type4name8callbackAcA7MSScopeO_xmSSSgxAA10MSResolver_pctclufc",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11MSDIFactory9MSServiceV",
+        "mangledName": "$s11MSDIFactory9MSServiceV",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MSServiceInstanceConvertible",
+            "printedName": "MSServiceInstanceConvertible",
+            "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP",
+            "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSFactory",
+        "printedName": "MSFactory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSFactory",
+                "printedName": "MSDIFactory.MSFactory",
+                "usr": "s:11MSDIFactory9MSFactoryC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory9MSFactoryC6sharedACvpZ",
+            "mangledName": "$s11MSDIFactory9MSFactoryC6sharedACvpZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSFactory",
+                    "printedName": "MSDIFactory.MSFactory",
+                    "usr": "s:11MSDIFactory9MSFactoryC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory9MSFactoryC6sharedACvgZ",
+                "mangledName": "$s11MSDIFactory9MSFactoryC6sharedACvgZ",
+                "moduleName": "MSDIFactory",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(builder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> [MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSServiceInstance",
+                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory9MSFactoryC8register7builderySayAA17MSServiceInstance_pGyXE_tF",
+            "mangledName": "$s11MSDIFactory9MSFactoryC8register7builderySayAA17MSServiceInstance_pGyXE_tF",
+            "moduleName": "MSDIFactory",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(builder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> MSDIFactory.MSServiceInstanceConvertible",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstanceConvertible",
+                    "printedName": "MSDIFactory.MSServiceInstanceConvertible",
+                    "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory9MSFactoryC8register7builderyAA28MSServiceInstanceConvertible_pyXE_tF",
+            "mangledName": "$s11MSDIFactory9MSFactoryC8register7builderyAA28MSServiceInstanceConvertible_pyXE_tF",
+            "moduleName": "MSDIFactory",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearDependencies",
+            "printedName": "clearDependencies()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory9MSFactoryC17clearDependenciesyyF",
+            "mangledName": "$s11MSDIFactory9MSFactoryC17clearDependenciesyyF",
+            "moduleName": "MSDIFactory",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory9MSFactoryC7resolve_4namexxm_SSSgtlF",
+            "mangledName": "$s11MSDIFactory9MSFactoryC7resolve_4namexxm_SSSgtlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveAll",
+            "printedName": "resolveAll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String? : τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory9MSFactoryC10resolveAllySDySSSgxGxmlF",
+            "mangledName": "$s11MSDIFactory9MSFactoryC10resolveAllySDySSSgxGxmlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11MSDIFactory9MSFactoryC",
+        "mangledName": "$s11MSDIFactory9MSFactoryC",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MSResolver",
+            "printedName": "MSResolver",
+            "usr": "s:11MSDIFactory10MSResolverP",
+            "mangledName": "$s11MSDIFactory10MSResolverP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSServiceInstance",
+        "printedName": "MSServiceInstance",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "Any.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory17MSServiceInstanceP4typeypXpvp",
+            "mangledName": "$s11MSDIFactory17MSServiceInstanceP4typeypXpvp",
+            "moduleName": "MSDIFactory",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "Any.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP4typeypXpvg",
+                "mangledName": "$s11MSDIFactory17MSServiceInstanceP4typeypXpvg",
+                "moduleName": "MSDIFactory",
+                "genericSig": "<τ_0_0 where τ_0_0 : MSDIFactory.MSServiceInstance>",
+                "sugared_genericSig": "<Self where Self : MSDIFactory.MSServiceInstance>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory17MSServiceInstanceP4nameSSSgvp",
+            "mangledName": "$s11MSDIFactory17MSServiceInstanceP4nameSSSgvp",
+            "moduleName": "MSDIFactory",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP4nameSSSgvg",
+                "mangledName": "$s11MSDIFactory17MSServiceInstanceP4nameSSSgvg",
+                "moduleName": "MSDIFactory",
+                "genericSig": "<τ_0_0 where τ_0_0 : MSDIFactory.MSServiceInstance>",
+                "sugared_genericSig": "<Self where Self : MSDIFactory.MSServiceInstance>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MSResolver",
+                "printedName": "MSDIFactory.MSResolver",
+                "usr": "s:11MSDIFactory10MSResolverP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory17MSServiceInstanceP7resolveyypAA10MSResolver_pF",
+            "mangledName": "$s11MSDIFactory17MSServiceInstanceP7resolveyypAA10MSResolver_pF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0 where τ_0_0 : MSDIFactory.MSServiceInstance>",
+            "sugared_genericSig": "<Self where Self : MSDIFactory.MSServiceInstance>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11MSDIFactory17MSServiceInstanceP",
+        "mangledName": "$s11MSDIFactory17MSServiceInstanceP",
+        "moduleName": "MSDIFactory",
+        "genericSig": "<τ_0_0 : MSDIFactory.MSServiceInstanceConvertible>",
+        "sugared_genericSig": "<Self : MSDIFactory.MSServiceInstanceConvertible>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MSServiceInstanceConvertible",
+            "printedName": "MSServiceInstanceConvertible",
+            "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP",
+            "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSServiceInstanceConvertible",
+        "printedName": "MSServiceInstanceConvertible",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "serviceInstance",
+            "printedName": "serviceInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSServiceInstance",
+                "printedName": "MSDIFactory.MSServiceInstance",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP07serviceC0AA0bC0_pvp",
+            "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertibleP07serviceC0AA0bC0_pvp",
+            "moduleName": "MSDIFactory",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP07serviceC0AA0bC0_pvg",
+                "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertibleP07serviceC0AA0bC0_pvg",
+                "moduleName": "MSDIFactory",
+                "genericSig": "<τ_0_0 where τ_0_0 : MSDIFactory.MSServiceInstanceConvertible>",
+                "sugared_genericSig": "<Self where Self : MSDIFactory.MSServiceInstanceConvertible>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "serviceInstance",
+            "printedName": "serviceInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MSServiceInstance",
+                "printedName": "MSDIFactory.MSServiceInstance",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MSDIFactory28MSServiceInstanceConvertiblePA2A0bC0RzrlE07serviceC0AaD_pvp",
+            "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertiblePA2A0bC0RzrlE07serviceC0AaD_pvp",
+            "moduleName": "MSDIFactory",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MSDIFactory28MSServiceInstanceConvertiblePA2A0bC0RzrlE07serviceC0AaD_pvg",
+                "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertiblePA2A0bC0RzrlE07serviceC0AaD_pvg",
+                "moduleName": "MSDIFactory",
+                "genericSig": "<τ_0_0 where τ_0_0 : MSDIFactory.MSServiceInstance>",
+                "sugared_genericSig": "<Self where Self : MSDIFactory.MSServiceInstance>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP",
+        "mangledName": "$s11MSDIFactory28MSServiceInstanceConvertibleP",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSServiceBuilder",
+        "printedName": "MSServiceBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "buildArray",
+            "printedName": "buildArray(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[MSDIFactory.MSServiceInstance]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSServiceInstance",
+                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO10buildArrayySayAA0B8Instance_pGSayAFGFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO10buildArrayySayAA0B8Instance_pGSayAFGFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildBlock",
+            "printedName": "buildBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[[MSDIFactory.MSServiceInstance]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSServiceInstance",
+                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO10buildBlockySayAA0B8Instance_pGAFd_tFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO10buildBlockySayAA0B8Instance_pGAFd_tFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildEither",
+            "printedName": "buildEither(first:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO11buildEither5firstSayAA0B8Instance_pGAG_tFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO11buildEither5firstSayAA0B8Instance_pGAG_tFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildEither",
+            "printedName": "buildEither(second:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO11buildEither6secondSayAA0B8Instance_pGAG_tFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO11buildEither6secondSayAA0B8Instance_pGAG_tFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildExpression",
+            "printedName": "buildExpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MSServiceInstance",
+                "printedName": "MSDIFactory.MSServiceInstance",
+                "usr": "s:11MSDIFactory17MSServiceInstanceP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGAaE_pFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGAaE_pFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildExpression",
+            "printedName": "buildExpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible7ElementRpzlFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible7ElementRpzlFZ",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element : MSDIFactory.MSServiceInstanceConvertible>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element : MSDIFactory.MSServiceInstanceConvertible>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildExpression",
+            "printedName": "buildExpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible_p7ElementRtzlFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible_p7ElementRtzlFZ",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == MSDIFactory.MSServiceInstanceConvertible>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == MSDIFactory.MSServiceInstanceConvertible>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildExpression",
+            "printedName": "buildExpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAaE_p7ElementRtzlFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAaE_p7ElementRtzlFZ",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == MSDIFactory.MSServiceInstance>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == MSDIFactory.MSServiceInstance>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildOptional",
+            "printedName": "buildOptional(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MSDIFactory.MSServiceInstance]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MSServiceInstance",
+                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO13buildOptionalySayAA0B8Instance_pGAFSgFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO13buildOptionalySayAA0B8Instance_pGAFSgFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildFinalResult",
+            "printedName": "buildFinalResult(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MSServiceInstance",
+                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "usr": "s:11MSDIFactory17MSServiceInstanceP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory16MSServiceBuilderO16buildFinalResultySayAA0B8Instance_pGAFFZ",
+            "mangledName": "$s11MSDIFactory16MSServiceBuilderO16buildFinalResultySayAA0B8Instance_pGAFFZ",
+            "moduleName": "MSDIFactory",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11MSDIFactory16MSServiceBuilderO",
+        "mangledName": "$s11MSDIFactory16MSServiceBuilderO",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl",
+          "ResultBuilder"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MSResolver",
+        "printedName": "MSResolver",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory10MSResolverP7resolve_4nameqd__qd__m_SSSgtlF",
+            "mangledName": "$s11MSDIFactory10MSResolverP7resolve_4nameqd__qd__m_SSSgtlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : MSDIFactory.MSResolver>",
+            "sugared_genericSig": "<Self, T where Self : MSDIFactory.MSResolver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolveAll",
+            "printedName": "resolveAll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String? : τ_1_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory10MSResolverP10resolveAllySDySSSgqd__Gqd__mlF",
+            "mangledName": "$s11MSDIFactory10MSResolverP10resolveAllySDySSSgqd__Gqd__mlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : MSDIFactory.MSResolver>",
+            "sugared_genericSig": "<Self, T where Self : MSDIFactory.MSResolver>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory10MSResolverPAAE7resolveyqd__qd__mlF",
+            "mangledName": "$s11MSDIFactory10MSResolverPAAE7resolveyqd__qd__mlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : MSDIFactory.MSResolver>",
+            "sugared_genericSig": "<Self, T where Self : MSDIFactory.MSResolver>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11MSDIFactory10MSResolverPAAE7resolve4nameqd__SSSg_tlF",
+            "mangledName": "$s11MSDIFactory10MSResolverPAAE7resolve4nameqd__SSSg_tlF",
+            "moduleName": "MSDIFactory",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : MSDIFactory.MSResolver>",
+            "sugared_genericSig": "<Self, T where Self : MSDIFactory.MSResolver>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11MSDIFactory10MSResolverP",
+        "mangledName": "$s11MSDIFactory10MSResolverP",
+        "moduleName": "MSDIFactory",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 9,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "Array",
+      "offset": 301,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 876,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 44,
+      "value": "\"Cannot reset dependencies while resolving.\""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "Array",
+      "offset": 949,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 74,
+      "value": "\"Could not resolve dependency of type \""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
+      "length": 4,
+      "value": "\" with name \""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "Dictionary",
+      "offset": 1656,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2123,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2177,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceInstance.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 36,
+      "value": "\"Cannot register value type as weak\""
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceBuilder.swift",
+      "kind": "Array",
+      "offset": 1595,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceBuilder.swift",
+      "kind": "Array",
+      "offset": 1764,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSResolver.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 38,
+      "value": "\"Could not determine type to resolve.\""
+    }
+  ]
+}
