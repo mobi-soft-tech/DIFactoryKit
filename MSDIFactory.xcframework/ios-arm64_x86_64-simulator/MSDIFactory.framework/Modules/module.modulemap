@@ -1,0 +1,11 @@
+framework module MSDIFactory {
+  umbrella header "MSDIFactory.h"
+
+  export *
+  module * { export * }
+}
+
+module MSDIFactory.Swift {
+  header "MSDIFactory-Swift.h"
+  requires objc
+}
