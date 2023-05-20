@@ -6,7 +6,12 @@ This framework contains dependency injection factory. It may be integrated in ot
 - language: Swift
 
 # Instalation
-Integrate framework using cocoapods: pod 'MSDIFactory'
+Integrate framework using cocoapods:
+
+Add specs source path: `source 'https://github.com/mobi-soft-tech/CocoapodsSpecs.git'`
+
+pod 'MSDIFactory'
+
 Integrate framework using swift package manager: 'https://github.com/mobi-soft-tech/DIFactoryKit'
 
 # Create a new version
