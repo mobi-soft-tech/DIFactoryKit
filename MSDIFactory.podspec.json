@@ -1,0 +1,22 @@
+{
+  "name": "MSDIFactory",
+  "version": "1.0.1",
+  "summary": "MSDIFactory",
+  "homepage": "https://github.com/mobi-soft-tech/DIFactoryKit",
+  "authors": {
+    "Shahen Antonyan": "shahenantonyan@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:mobi-soft-tech/DIFactoryKit.git",
+    "tag": "1.0.1"
+  },
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(SDKROOT)/usr/lib/swift"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MSDIFactory.xcframework"
+  }
+}

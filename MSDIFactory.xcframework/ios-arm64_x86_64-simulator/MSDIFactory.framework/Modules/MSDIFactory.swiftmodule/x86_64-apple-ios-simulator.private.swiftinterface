@@ -1,0 +1,70 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MSDIFactory
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import MSDIFactory
+import Swift
+import _Concurrency
+import _StringProcessing
+public enum MSScope : Swift.Int {
+  case instant
+  case singleton
+  case weak
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct MSService : MSDIFactory.MSServiceInstanceConvertible {
+  public let serviceInstance: any MSDIFactory.MSServiceInstance
+  public init<T>(scope: MSDIFactory.MSScope, type: T.Type, name: Swift.String? = nil, callback: @escaping (any MSDIFactory.MSResolver) -> T)
+}
+@_hasMissingDesignatedInitializers public class MSFactory : MSDIFactory.MSResolver, @unchecked Swift.Sendable {
+  public static let shared: MSDIFactory.MSFactory
+  public func register(@MSDIFactory.MSServiceBuilder builder: () -> [any MSDIFactory.MSServiceInstance])
+  public func register(builder: () -> any MSDIFactory.MSServiceInstanceConvertible)
+  public func clearDependencies()
+  public func resolve<T>(_ type: T.Type, name: Swift.String? = nil) -> T
+  public func resolveAll<T>(_ type: T.Type) -> [Swift.String? : T]
+  @objc deinit
+}
+public protocol MSServiceInstance : MSDIFactory.MSServiceInstanceConvertible {
+  var type: any Any.Type { get }
+  var name: Swift.String? { get }
+  func resolve(_ resolver: any MSDIFactory.MSResolver) -> Any
+}
+public protocol MSServiceInstanceConvertible {
+  var serviceInstance: any MSDIFactory.MSServiceInstance { get }
+}
+extension MSDIFactory.MSServiceInstanceConvertible where Self : MSDIFactory.MSServiceInstance {
+  public var serviceInstance: any MSDIFactory.MSServiceInstance {
+    get
+  }
+}
+@_functionBuilder public enum MSServiceBuilder {
+  public static func buildArray(_ components: [[any MSDIFactory.MSServiceInstance]]) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildBlock(_ components: [any MSDIFactory.MSServiceInstance]...) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildEither(first component: [any MSDIFactory.MSServiceInstance]) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildEither(second component: [any MSDIFactory.MSServiceInstance]) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildExpression(_ expression: any MSDIFactory.MSServiceInstance) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildExpression<S>(_ expression: S) -> [any MSDIFactory.MSServiceInstance] where S : Swift.Sequence, S.Element : MSDIFactory.MSServiceInstanceConvertible
+  public static func buildExpression<S>(_ expression: S) -> [any MSDIFactory.MSServiceInstance] where S : Swift.Sequence, S.Element == any MSDIFactory.MSServiceInstanceConvertible
+  public static func buildExpression<S>(_ expression: S) -> [any MSDIFactory.MSServiceInstance] where S : Swift.Sequence, S.Element == any MSDIFactory.MSServiceInstance
+  public static func buildOptional(_ component: [any MSDIFactory.MSServiceInstance]?) -> [any MSDIFactory.MSServiceInstance]
+  public static func buildFinalResult(_ component: [any MSDIFactory.MSServiceInstance]) -> [any MSDIFactory.MSServiceInstance]
+}
+public protocol MSResolver {
+  func resolve<T>(_ type: T.Type, name: Swift.String?) -> T
+  func resolveAll<T>(_ type: T.Type) -> [Swift.String? : T]
+}
+extension MSDIFactory.MSResolver {
+  public func resolve<T>(_ type: T.Type) -> T
+  public func resolve<T>(name: Swift.String? = nil) -> T
+  @available(*, unavailable, message: "Could not determine expected type. Explicitly specify with resolve(_:) or resolve(_:name:).")
+  public func resolve(name: Swift.String? = nil) -> Any
+}
+extension MSDIFactory.MSScope : Swift.Equatable {}
+extension MSDIFactory.MSScope : Swift.Hashable {}
+extension MSDIFactory.MSScope : Swift.RawRepresentable {}
