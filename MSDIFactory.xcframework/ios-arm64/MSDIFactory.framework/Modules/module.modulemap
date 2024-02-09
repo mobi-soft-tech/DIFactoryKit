@@ -1,7 +1,7 @@
 framework module MSDIFactory {
   umbrella header "MSDIFactory.h"
-
   export *
+
   module * { export * }
 }
 
