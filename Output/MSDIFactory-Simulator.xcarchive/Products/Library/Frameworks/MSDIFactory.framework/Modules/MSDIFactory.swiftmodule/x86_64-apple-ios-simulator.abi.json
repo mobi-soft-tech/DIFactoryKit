@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MSDIFactory",
+    "printedName": "MSDIFactory",
     "children": [
       {
         "kind": "Import",
@@ -214,6 +214,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -263,7 +277,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MSServiceInstance",
-                "printedName": "MSDIFactory.MSServiceInstance",
+                "printedName": "any MSDIFactory.MSServiceInstance",
                 "usr": "s:11MSDIFactory17MSServiceInstanceP"
               }
             ],
@@ -286,7 +300,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -346,7 +360,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(MSDIFactory.MSResolver) -> τ_0_0",
+                "printedName": "(any MSDIFactory.MSResolver) -> τ_0_0",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -356,7 +370,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "MSResolver",
-                    "printedName": "MSDIFactory.MSResolver",
+                    "printedName": "any MSDIFactory.MSResolver",
                     "usr": "s:11MSDIFactory10MSResolverP"
                   }
                 ]
@@ -382,6 +396,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "MSServiceInstanceConvertible",
@@ -470,17 +498,17 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> [MSDIFactory.MSServiceInstance]",
+                "printedName": "() -> [any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "printedName": "[any MSDIFactory.MSServiceInstance]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MSServiceInstance",
-                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "printedName": "any MSDIFactory.MSServiceInstance",
                         "usr": "s:11MSDIFactory17MSServiceInstanceP"
                       }
                     ],
@@ -519,12 +547,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> MSDIFactory.MSServiceInstanceConvertible",
+                "printedName": "() -> any MSDIFactory.MSServiceInstanceConvertible",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstanceConvertible",
-                    "printedName": "MSDIFactory.MSServiceInstanceConvertible",
+                    "printedName": "any MSDIFactory.MSServiceInstanceConvertible",
                     "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP"
                   },
                   {
@@ -684,6 +712,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "MSResolver",
             "printedName": "MSResolver",
             "usr": "s:11MSDIFactory10MSResolverP",
@@ -721,7 +763,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "Any.Type",
+                "printedName": "any Any.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -745,7 +787,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "ExistentialMetatype",
-                    "printedName": "Any.Type",
+                    "printedName": "any Any.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -838,7 +880,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MSResolver",
-                "printedName": "MSDIFactory.MSResolver",
+                "printedName": "any MSDIFactory.MSResolver",
                 "usr": "s:11MSDIFactory10MSResolverP"
               }
             ],
@@ -865,6 +907,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "MSServiceInstanceConvertible",
             "printedName": "MSServiceInstanceConvertible",
             "usr": "s:11MSDIFactory28MSServiceInstanceConvertibleP",
@@ -885,7 +941,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MSServiceInstance",
-                "printedName": "MSDIFactory.MSServiceInstance",
+                "printedName": "any MSDIFactory.MSServiceInstance",
                 "usr": "s:11MSDIFactory17MSServiceInstanceP"
               }
             ],
@@ -903,7 +959,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -927,7 +983,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MSServiceInstance",
-                "printedName": "MSDIFactory.MSServiceInstance",
+                "printedName": "any MSDIFactory.MSServiceInstance",
                 "usr": "s:11MSDIFactory17MSServiceInstanceP"
               }
             ],
@@ -945,7 +1001,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -967,6 +1023,22 @@
         "moduleName": "MSDIFactory",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -992,12 +1064,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1006,17 +1078,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[[MSDIFactory.MSServiceInstance]]",
+                "printedName": "[[any MSDIFactory.MSServiceInstance]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "printedName": "[any MSDIFactory.MSServiceInstance]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MSServiceInstance",
-                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "printedName": "any MSDIFactory.MSServiceInstance",
                         "usr": "s:11MSDIFactory17MSServiceInstanceP"
                       }
                     ],
@@ -1044,12 +1116,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1058,17 +1130,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[[MSDIFactory.MSServiceInstance]]",
+                "printedName": "[[any MSDIFactory.MSServiceInstance]]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "printedName": "[any MSDIFactory.MSServiceInstance]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MSServiceInstance",
-                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "printedName": "any MSDIFactory.MSServiceInstance",
                         "usr": "s:11MSDIFactory17MSServiceInstanceP"
                       }
                     ],
@@ -1096,12 +1168,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1110,12 +1182,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1140,12 +1212,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1154,12 +1226,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1184,12 +1256,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1198,7 +1270,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "MSServiceInstance",
-                "printedName": "MSDIFactory.MSServiceInstance",
+                "printedName": "any MSDIFactory.MSServiceInstance",
                 "usr": "s:11MSDIFactory17MSServiceInstanceP"
               }
             ],
@@ -1220,12 +1292,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1257,12 +1329,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1278,8 +1350,8 @@
             "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible_p7ElementRtzlFZ",
             "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAA0bF11Convertible_p7ElementRtzlFZ",
             "moduleName": "MSDIFactory",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == MSDIFactory.MSServiceInstanceConvertible>",
-            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == MSDIFactory.MSServiceInstanceConvertible>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == any MSDIFactory.MSServiceInstanceConvertible>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == any MSDIFactory.MSServiceInstanceConvertible>",
             "static": true,
             "declAttributes": [
               "AccessControl"
@@ -1294,12 +1366,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1315,8 +1387,8 @@
             "usr": "s:11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAaE_p7ElementRtzlFZ",
             "mangledName": "$s11MSDIFactory16MSServiceBuilderO15buildExpressionySayAA0B8Instance_pGxSTRzAaE_p7ElementRtzlFZ",
             "moduleName": "MSDIFactory",
-            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == MSDIFactory.MSServiceInstance>",
-            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == MSDIFactory.MSServiceInstance>",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == any MSDIFactory.MSServiceInstance>",
+            "sugared_genericSig": "<S where S : Swift.Sequence, S.Element == any MSDIFactory.MSServiceInstance>",
             "static": true,
             "declAttributes": [
               "AccessControl"
@@ -1331,12 +1403,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1345,17 +1417,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[MSDIFactory.MSServiceInstance]?",
+                "printedName": "[any MSDIFactory.MSServiceInstance]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[MSDIFactory.MSServiceInstance]",
+                    "printedName": "[any MSDIFactory.MSServiceInstance]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "MSServiceInstance",
-                        "printedName": "MSDIFactory.MSServiceInstance",
+                        "printedName": "any MSDIFactory.MSServiceInstance",
                         "usr": "s:11MSDIFactory17MSServiceInstanceP"
                       }
                     ],
@@ -1383,12 +1455,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1397,12 +1469,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[MSDIFactory.MSServiceInstance]",
+                "printedName": "[any MSDIFactory.MSServiceInstance]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "MSServiceInstance",
-                    "printedName": "MSDIFactory.MSServiceInstance",
+                    "printedName": "any MSDIFactory.MSServiceInstance",
                     "usr": "s:11MSDIFactory17MSServiceInstanceP"
                   }
                 ],
@@ -1427,6 +1499,22 @@
         "declAttributes": [
           "AccessControl",
           "ResultBuilder"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1620,54 +1708,28 @@
         "moduleName": "MSDIFactory",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 199,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 199,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 210,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 229,
-      "length": 4,
-      "value": "2"
-    },
     {
       "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSService.swift",
       "kind": "IntegerLiteral",
@@ -1702,104 +1764,6 @@
       "offset": 344,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 876,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 44,
-      "value": "\"Cannot reset dependencies while resolving.\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "Array",
-      "offset": 949,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1270,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1308,
-      "length": 74,
-      "value": "\"Could not resolve dependency of type \""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1353,
-      "length": 4,
-      "value": "\" with name \""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 1380,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "Dictionary",
-      "offset": 1656,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2123,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSFactory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2177,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceInstance.swift",
-      "kind": "StringLiteral",
-      "offset": 1221,
-      "length": 36,
-      "value": "\"Cannot register value type as weak\""
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceBuilder.swift",
-      "kind": "Array",
-      "offset": 1595,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSServiceBuilder.swift",
-      "kind": "Array",
-      "offset": 1764,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/shahen\/Workspace\/MobiSoft\/DIFactory\/MSDIFactory\/MSDIFactory\/Classes\/MSResolver.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 38,
-      "value": "\"Could not determine type to resolve.\""
     }
   ]
 }

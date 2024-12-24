@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name             = "MSDIFactory"
-    spec.version          = "1.0.1"
+    spec.version          = "1.0.2"
     spec.summary          = "MSDIFactory"
     spec.homepage         = "https://github.com/mobi-soft-tech/DIFactoryKit"
     spec.author           = { "Shahen Antonyan" => "shahenantonyan@gmail.com" }
